@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hammered",
+  "version": "${version}",
+
+  "name": "Hammered",
+  "description": "Adds hammers to the game!",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "_icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.command17.hammered.fabric.HammeredFabric"
+    ]
+  },
+  "mixins": [
+    "hammered.mixins.json",
+    "hammered-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=9.1.10"
+  }
+}

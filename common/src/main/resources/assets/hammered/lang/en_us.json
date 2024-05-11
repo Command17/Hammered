@@ -1,0 +1,9 @@
+{
+  "item.hammered.iron_hammer": "Iron Hammer",
+  "item.hammered.gold_hammer": "Gold Hammer",
+  "item.hammered.diamond_hammer": "Diamond Hammer",
+  "item.hammered.netherite_hammer": "Netherite Hammer",
+
+  "enchantment.hammered.hammered": "Hammered",
+  "enchantment.hammered.impact": "Impact"
+}
