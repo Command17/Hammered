@@ -28,6 +28,7 @@ public class Hammered {
 	}
 
 	private static void registerVillagerTrades() {
+		/*
 		TradeRegistry.registerVillagerTrade(VillagerProfession.LIBRARIAN, 2, (entity, random) -> new TradeOffer(
                 new ItemStack(Items.EMERALD, random.nextBetween(12, 43)),
 				new ItemStack(Items.BOOK),
@@ -45,6 +46,7 @@ public class Hammered {
 				5,
 				0.02f
 		));
+		 */
 
 		LOGGER.info("Registered Villager Trades.");
 	}
