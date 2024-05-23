@@ -2,13 +2,6 @@ package com.github.command17.hammered;
 
 import com.github.command17.hammered.enchantment.ModEnchantments;
 import com.github.command17.hammered.item.ModItems;
-import dev.architectury.registry.level.entity.trade.TradeRegistry;
-import net.minecraft.enchantment.EnchantmentLevelEntry;
-import net.minecraft.item.EnchantedBookItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.village.TradeOffer;
-import net.minecraft.village.VillagerProfession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
