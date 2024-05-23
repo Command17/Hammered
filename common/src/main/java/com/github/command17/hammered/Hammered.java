@@ -28,16 +28,18 @@ public class Hammered {
 	}
 
 	private static void registerVillagerTrades() {
-		TradeRegistry.registerVillagerTrade(VillagerProfession.LIBRARIAN, 1, (entity, random) -> new TradeOffer(
+		TradeRegistry.registerVillagerTrade(VillagerProfession.LIBRARIAN, 2, (entity, random) -> new TradeOffer(
                 new ItemStack(Items.EMERALD, random.nextBetween(12, 43)),
+				new ItemStack(Items.BOOK),
                 EnchantedBookItem.forEnchantment(new EnchantmentLevelEntry(ModEnchantments.HAMMERED.get(), random.nextBoolean() ? 1 : random.nextBetween(2, 3))),
                 3,
                 5,
                 0.02f
         ));
 
-		TradeRegistry.registerVillagerTrade(VillagerProfession.LIBRARIAN, 1, (entity, random) -> new TradeOffer(
+		TradeRegistry.registerVillagerTrade(VillagerProfession.LIBRARIAN, 2, (entity, random) -> new TradeOffer(
 				new ItemStack(Items.EMERALD, random.nextBetween(6, 30)),
+				new ItemStack(Items.BOOK),
 				EnchantedBookItem.forEnchantment(new EnchantmentLevelEntry(ModEnchantments.IMPACT.get(), random.nextBetween(1, 2))),
 				3,
 				5,
